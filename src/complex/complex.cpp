@@ -5,6 +5,7 @@
 #include <complex>	// contains the complex class definition
 //Exercise 3.1
 //Exercise 3.2
+//Exercise 3.3
 using namespace std; // cout, endl, complex are all part of this namespace
 
 int main()
