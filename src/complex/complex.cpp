@@ -3,7 +3,9 @@
 
 #include <iostream>	// contains the definition of cout, endl
 #include <complex>	// contains the complex class definition
-
+//Exercise 3.1
+//Exercise 3.2
+//Exercise 3.3
 using namespace std; // cout, endl, complex are all part of this namespace
 
 int main()
@@ -14,8 +16,8 @@ int main()
 	auto answer = num1 * num2; // type deduced for 'answer' is: complex<float>
 
 	cout << "The answer is: " << answer << endl;
-	cout << "Or in a more familiar form: " << answer.real() 
-			<< " + " << answer.imag() << "j" 
+	cout << "Or in a more familiar form: " << answer.real()
+			<< " + " << answer.imag() << "j"
 			<< endl	<< endl;
 
 	// answer++;
